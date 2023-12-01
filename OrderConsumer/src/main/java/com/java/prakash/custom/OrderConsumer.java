@@ -22,14 +22,18 @@ public class OrderConsumer {
         consumer.subscribe(Collections.singletonList("OrderCSTopic"));
         ConsumerRecords<String, Order> consumerRecords = consumer.poll(Duration.ofSeconds(20));
 
-        for (ConsumerRecord<String, Order> record : consumerRecords) {
-            String customerName = record.key();
-            Order order = record.value();
-            System.out.println("Customer Name : " + customerName);
-            System.out.println("Product Name : " + order.getProductName());
-            System.out.println("Quantity : " + order.getQty());
+        try {
+            while (true) {
+                for (ConsumerRecord<String, Order> record : consumerRecords) {
+                    String customerName = record.key();
+                    Order order = record.value();
+                    System.out.println("Customer Name : " + customerName);
+                    System.out.println("Product Name : " + order.getProductName());
+                    System.out.println("Quantity : " + order.getQty());
+                }
+            }
+        } finally {
+            consumer.close();
         }
-        consumer.close();
-
     }
 }
