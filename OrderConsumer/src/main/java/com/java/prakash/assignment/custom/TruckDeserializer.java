@@ -1,4 +1,4 @@
-package com.java.consumer.prakash.assignment.custom;
+package com.java.prakash.assignment.custom;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.serialization.Deserializer;

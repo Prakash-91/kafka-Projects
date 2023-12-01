@@ -1,4 +1,4 @@
-package com.java.consumer.prakash.custom;
+package com.java.prakash.custom;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.errors.SerializationException;

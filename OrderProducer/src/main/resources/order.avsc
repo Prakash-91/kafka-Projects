@@ -1,0 +1,10 @@
+{
+"namespace" : "com.java.prakash.avro",
+"type" : "record",
+"name" : "Order",
+"fields" : [
+{"name" : "customerName" , "type" : "string"},
+{"name" : "product" , "type" : "string"},
+{"name" : "qty" , "type" : "int"}
+]
+}

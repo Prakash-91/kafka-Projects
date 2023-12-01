@@ -1,4 +1,4 @@
-package com.java.consumer.prakash.custom;
+package com.java.prakash.custom;
 
 public class Order {
     private String customerName;

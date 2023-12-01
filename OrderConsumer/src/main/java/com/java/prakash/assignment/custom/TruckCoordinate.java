@@ -1,4 +1,4 @@
-package com.java.consumer.prakash.assignment.custom;
+package com.java.prakash.assignment.custom;
 
 public class TruckCoordinate {
     private String truckNumber;

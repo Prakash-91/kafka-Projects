@@ -1,4 +1,4 @@
-package com.java.consumer.prakash.assignment.custom;
+package com.java.prakash.assignment.custom;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
