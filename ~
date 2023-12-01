@@ -1,0 +1,10 @@
+{
+"namespace" : "com.java.prakash.assignment.avro",
+"type" : "record",
+"name" : "TruckCoordinate",
+"fields" : [
+{"name" : "truckNumber" , "type" : "string"},
+{"name" : "latitude" , "type" : "string"},
+{"name" : "longitude" , "type" : "string"}
+]
+}
